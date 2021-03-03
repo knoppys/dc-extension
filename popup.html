@@ -2,8 +2,68 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="background.css">
+	<script src="jquery.min.js" type="text/javascript"></script>
+	<script src="background.js" type="text/javascript"></script>
 </head>
-<body>
+<body class="dc-extension">
+
+	<div class="header">
+		<img src="logo.svg">
+		<strong>Information Portal</strong>
+	</div>
+
+	<div class="data-table">
+		<strong>Customer Support</strong>
+		<table>
+			<tbody>			
+				<tr>
+					<td class="desc">Pending Comments</td>
+					<td class="data" id="pendingComments">
+						<a href="http://localhost/dc-full-install/wp-admin/edit-comments.php">
+							0
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table>
+			<tbody>
+				<tr>
+					<td class="desc">Pending Zen Tickets</td>
+					<td class="data" id="pendingZenTickets">
+						<a href="http://www.google.com">
+							0
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="data-table">
+		<strong>Supplier Portal</strong>
+		<table>
+			<tbody>			
+				<tr>
+					<td class="desc">Awaiting Approval</td>
+					<td class="data" id="pendingSubmissions">
+						<a href="http://www.designcuts.com/your-account/product-submissions">
+							0
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="desc">Awaiting Publish</td>
+					<td class="data" id="publishSubmissions">
+						<a href="http://www.designcuts.com/your-account/product-submissions">
+							0
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 
 </body>
 </html>

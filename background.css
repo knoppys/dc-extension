@@ -1,0 +1,40 @@
+body.dc-extension{
+	width: 300px;
+}
+table.dc-extension {
+	width: 100%;
+}
+.data,.desc {
+	border-bottom: 1px dotted #d2d2d2;
+	line-height: 1.5;}
+.data {
+	text-align: right;
+}
+.data-table {
+    padding: 9px;
+    background: #f3f3f3;
+    margin-bottom: 10px;
+}
+.data-table strong {
+    line-height: 1.5;
+}
+.header {
+    background: #33475e;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.header img {
+    max-width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+.header strong {
+    text-align: center;
+    display: block;
+    padding-top: 8px;
+    color: #fff;
+}
+.data-table table {
+    width: 100%;
+}

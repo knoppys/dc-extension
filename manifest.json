@@ -4,16 +4,16 @@
 	"description": "An extension for Chrome that gives an overview of some of the main sites content",
 	"author": "Alex Knopp",
 	"version": "1.0",
-	"permissions": ["storage", "<all_urls>"],
+	"permissions": ["storage"],
 	"content_scripts": [{
       "matches": [
         "<all_urls>"
       ],
       "css": ["background.css"],
-      "js": ["jquery.min.js", "content.js"]
+      "js": ["jquery.min.js", "background.js"]
     }],
 	"browser_action": {
-		"default_title": "Does a thing when you do a thing",
+		"default_title": "DC Departments Overview",
 		"default_popup": "popup.html",
 		"default_icon": {
 			"16": "icon.png"
